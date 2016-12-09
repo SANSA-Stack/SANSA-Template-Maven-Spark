@@ -1,18 +1,16 @@
-SANSA Template for Maven within Spark
+Maven Template Project for SANSA using Spark
 =============================
 
-This is [Maven](https://maven.apache.org/) template to generate a [SANSA](https://github.com/SANSA-Stack) project using [Apache Spark](http://spark.apache.org/).
+This is a [Maven](https://maven.apache.org/) template to generate a [SANSA](https://github.com/SANSA-Stack) project using [Apache Spark](http://spark.apache.org/).
 
 How to use
 ----------
 
 ```
-https://github.com/SANSA-Stack/SANSA-Template-Maven-Spark.git
+clone https://github.com/SANSA-Stack/SANSA-Template-Maven-Spark.git
 cd SANSA-Template-Maven-Spark
-
 mvn clean package
 ````
 
-Then depends on your IDE, just import as Maven project and start using SANSA. Enjoy it!!:)
-
+The subsequent steps depend on your IDE. Generally, just import this repository as a Maven project and start using SANSA / Spark. Enjoy it! :)
 
