@@ -7,8 +7,9 @@ How to use
 ----------
 
 ```
-clone https://github.com/SANSA-Stack/SANSA-Template-Maven-Spark.git
+git clone https://github.com/SANSA-Stack/SANSA-Template-Maven-Spark.git
 cd SANSA-Template-Maven-Spark
+
 mvn clean package
 ````
 
