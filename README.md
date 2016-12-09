@@ -1,4 +1,4 @@
-SANSA Spark project template
+SANSA Maven on Spark project template
 =============================
 
 This is [Maven](https://maven.apache.org/) template to generate a [SANSA](https://github.com/SANSA-Stack) project using [Apache Spark](http://spark.apache.org/).
