@@ -4,7 +4,7 @@
 
 	<artifactId>SANSA-Template-Maven-Spark</artifactId>
 	<groupId>net.sansa-stack</groupId>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 
 	<name>SANSA-Template-Maven-Spark</name>
 	<description>SANSA Template for Maven within Spark</description>
@@ -13,7 +13,7 @@
 		<url>http://sda.tech/</url>
 	</organization>
 
-	<inceptionYear>2016</inceptionYear>
+	<inceptionYear>2017</inceptionYear>
 
 	<url>http://sansa-stack.net/</url>
 
@@ -30,9 +30,9 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<scala.version>2.11.8</scala.version>
 		<scala.binary.version>2.11</scala.binary.version>
-		<spark.version>2.0.0</spark.version>
-		<sansa.version>0.1.0</sansa.version>
-		<jena.version>3.1.0</jena.version>
+		<spark.version>2.1.1</spark.version>
+		<sansa.version>0.2.0</sansa.version>
+		<jena.version>3.1.1</jena.version>
 	</properties>
 
 	<dependencies>
@@ -67,15 +67,15 @@
 		<!-- SANSA RDF -->
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>sansa-rdf-spark-bundle</artifactId>
+			<artifactId>sansa-rdf-spark-bundle_${scala.binary.version}</artifactId>
 			<version>${sansa.version}</version>
 		</dependency>
 
 		<!-- SANSA OWL -->
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>sansa-owl-spark</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
+			<artifactId>sansa-owl-spark_${scala.binary.version}</artifactId>
+			<version>${sansa.version}</version>
 		</dependency>
 
 		<!-- SANSA Inference -->
@@ -90,14 +90,14 @@
 		<!-- SANSA Querying -->
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>sansa-query-spark-bundle</artifactId>
+			<artifactId>sansa-query-spark-bundle_${scala.binary.version}</artifactId>
 			<version>${sansa.version}</version>
 		</dependency>
 
 		<!-- SANSA ML -->
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>sansa-ml-spark</artifactId>
+			<artifactId>sansa-ml-spark_${scala.binary.version}</artifactId>
 			<version>${sansa.version}</version>
 		</dependency>
 
