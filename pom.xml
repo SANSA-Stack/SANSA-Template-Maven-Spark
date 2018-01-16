@@ -4,7 +4,7 @@
 
 	<artifactId>SANSA-Template-Maven-Spark</artifactId>
 	<groupId>net.sansa-stack</groupId>
-	<version>0.3.0-SNAPSHOT</version>
+	<version>0.3.1-SNAPSHOT</version>
 
 	<name>SANSA-Template-Maven-Spark</name>
 	<description>SANSA Template for Maven within Spark</description>
@@ -30,8 +30,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<scala.version>2.11.11</scala.version>
 		<scala.binary.version>2.11</scala.binary.version>
-		<spark.version>2.2.0</spark.version>
-		<sansa.version>0.3.0-SNAPSHOT</sansa.version>
+		<spark.version>2.2.1</spark.version>
+		<sansa.version>0.3.1-SNAPSHOT</sansa.version>
 		<jena.version>3.5.0</jena.version>
 	</properties>
 
