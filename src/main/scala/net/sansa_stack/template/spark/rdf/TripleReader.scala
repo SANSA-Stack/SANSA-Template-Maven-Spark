@@ -1,10 +1,12 @@
 package net.sansa_stack.template.spark.rdf
+
 import java.net.URI
 
-import net.sansa_stack.rdf.spark.io.NTripleReader
-import org.apache.spark.sql.SparkSession
-
 import scala.collection.mutable
+
+import net.sansa_stack.rdf.spark.io._
+import org.apache.spark.sql.SparkSession
+import org.apache.jena.riot.Lang
 
 object TripleReader {
 
@@ -29,9 +31,11 @@ object TripleReader {
     println("|        Triple reader example       |")
     println("======================================")
 
-    val triplesRDD = NTripleReader.load(spark, URI.create(input))
+    val lang = Lang.NTRIPLES
 
-    triplesRDD.take(5).foreach(println(_))
+    val triples = spark.rdf(lang)(input)
+
+    triples.take(5).foreach(println(_))
 
     //triplesRDD.saveAsTextFile(output)
 
@@ -48,7 +52,7 @@ object TripleReader {
     opt[String]('i', "input").required().valueName("<path>").
       action((x, c) => c.copy(in = x)).
       text("path to file that contains the data (in N-Triples format)")
-      
+
     help("help").text("prints this usage text")
   }
 }
