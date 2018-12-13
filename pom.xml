@@ -4,7 +4,7 @@
 
 	<artifactId>SANSA-Template-Maven-Spark</artifactId>
 	<groupId>net.sansa-stack</groupId>
-	<version>0.5.0</version>
+	<version>0.5.1-SNAPSHOT</version>
 
 	<name>SANSA-Template-Maven-Spark</name>
 	<description>SANSA Template for Maven within Spark</description>
