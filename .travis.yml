@@ -6,4 +6,4 @@ cache:
 scala:
   - 2.11.11
 script:
-  - mvn test 
+  - mvn clean install

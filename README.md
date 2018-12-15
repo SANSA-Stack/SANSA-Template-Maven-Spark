@@ -1,6 +1,6 @@
 Maven Template Project for SANSA using Spark
 =============================
-[![Build Status](https://travis-ci.com/SANSA-Stack/SANSA-Template-Maven-Spark.svg?branch=develop)](https://travis-ci.com/SANSA-Stack/SANSA-Template-Maven-Spark)
+[![Build Status](https://travis-ci.org/SANSA-Stack/SANSA-Template-Maven-Spark.svg?branch=develop)](https://travis-ci.org/SANSA-Stack/SANSA-Template-Maven-Spark)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Twitter](https://img.shields.io/twitter/follow/SANSA_Stack.svg?style=social)](https://twitter.com/SANSA_Stack)
 
