@@ -30,7 +30,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<scala.version>2.11.11</scala.version>
 		<scala.binary.version>2.11</scala.binary.version>
-		<spark.version>2.4.0</spark.version>
+		<spark.version>2.4.3</spark.version>
 		<sansa.rdf.version>0.5.1-SNAPSHOT</sansa.rdf.version>
 		<sansa.owl.version>0.4.2-SNAPSHOT</sansa.owl.version>
 		<sansa.query.version>0.5.1-SNAPSHOT</sansa.query.version>
