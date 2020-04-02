@@ -1,12 +1,9 @@
 package net.sansa_stack.template.spark.rdf
 
-import java.net.URI
-
-import scala.collection.mutable
+import org.apache.jena.riot.Lang
+import org.apache.spark.sql.SparkSession
 
 import net.sansa_stack.rdf.spark.io._
-import org.apache.spark.sql.SparkSession
-import org.apache.jena.riot.Lang
 
 object TripleReader {
 
